@@ -37,7 +37,7 @@ movie_data = pd.DataFrame(movies_dict)
 similarity_matrix = pickle.load(open('similarity.pkl', 'rb'))
 
 # Streamlit app title and background image
-st.title("🎬 Movie Recommendation System")
+st.title("Movie Recommendation System")
 
 # User selects a movie from the dropdown
 selected_movie_name = st.selectbox(
